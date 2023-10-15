@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Table</title>
-</head>
-<body>
-    <table border="2" cellspacing="0">
+    <head>
+        <title>Table</title>
+        <style>
+            table {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <table width="50%" border="1" cellspacing="5" cellpadding="10">
         <tr>
-            <td>baris 1, kolom 1</td>
-            <td>baris 1, kolom 2</td>
+            <th colspan="6">Data Mahasiswa</th>
         </tr>
         <tr>
-            <td>baris 2, kolom 1</td>
-            <td>baris 2, kolom 2</td>
+            <th rowspan="2">No.</th>
+            <th rowspan="2">NRP</th>
+            <th colspan="2">Nama</th>
+            <th rowspan="2">Alamat</th>
+            <th rowspan="2">No HP</th>
         </tr>
-    </table>
-</body>
+        <tr>
+            <th>Nama Depan</th>
+            <th>Nama Belakang</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>113040001</th>
+            <th>Asep</th>
+            <th>Setia</th>
+            <th>Setiabudhi</th>
+            <th>081234567890</th>
+        </tr>
+        <tr>
+            <th rowspan="2">2</th>
+            <th rowspan="2">Dani</th>
+            <th rowspan="2">Gunawan</th>
+            <th rowspan="2">Lembang</th>
+            <th rowspan="2">089038131212</th>
+        </tr>
+        <tr>
+            <th>081392482222</th>
+        </tr>
+    </body>
 </html>
