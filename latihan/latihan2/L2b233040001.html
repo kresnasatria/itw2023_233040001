@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form + Table</title>
+    </head>
+    <body>
+        <table width="45%" height="50%" border="2" cellspacing="0" cellpadding="5">
+            <tr>
+                <th align="center" bgcolor="gray" colspan="3">INPUT DATA MAHASISWA</th>
+            </tr>
+            <tr>
+                <th>Username</th>     
+                <th align="center">:</th>
+                <th align="left">
+                    <form>
+                        <input type="username">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Password</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <form>
+                        <input type="Password">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Fullname</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <form>
+                        <input type="Username">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <form>
+                        <input type="email">
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Agama</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <select>
+                        <option name="Agama">--Pilih Agama--</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Katholik">Katholik</option>
+                        <option value="Islam">Islam</option>
+                        <option value="Budha">Budha</option>
+                        <option value="Khonghucu">Khonghucu</option>
+                    </select>
+                </th>
+            </tr>
+            <tr>
+                <th>Jenis Kelamin</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <form>
+                        <input type="radio" name="Jenis Kelmamin" value="Laki-laki">Laki-laki
+                        <input type="radio" name="Jenis Kelamain" value="Perempuan">Perempuan
+                    </form>
+                </th>
+            </tr>
+            <tr>
+                <th>Hobi</th>
+                <th align="center">:</th>
+                <th align="left">
+                    <input type="checkbox">Musik 
+                    <input type="checkbox">Olahraga
+                    <input type="checkbox">Gaming
+                    <input type="checkbox">Lainnya
+                </th>
+            </tr>
+            <tr>
+                <th>Profil Singkat</th>
+                <th align="center">:</th>
+                <th>
+                    <form>
+                        <textarea rows="5" cols="50" name="Komentar"></textarea>
+                    </form>
+                </th>
+            </tr>
+            <tr align="right">
+                <th colspan="3">
+                    <form>
+                        <input type="submit" value="submit">
+                    </form>
+                </th>
+            </tr>      
+        </table>
+    </body>
+</html>
