@@ -1,0 +1,51 @@
+body {
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    font-family: Georgia;
+}
+
+h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-size: 60px;
+    color: darkblue;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    font-style: italic;
+    text-align: center;
+}
+
+.a1 {
+    color: red;
+}
+
+.a1:hover {
+    color: red;
+}
+
+.a2 {
+    font-weight: bold;
+    color: blue;
+    text-decoration: none;
+}
+
+.a2:hover {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+}
+
+.p1 {
+    text-align: center;
+    color: orange;
+}
+
+.p2 {
+    text-align: center;
+    line-height: 30px;
+}
