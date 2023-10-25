@@ -115,6 +115,7 @@ body {
 .content .penulis a {
     color: salmon;
     text-decoration: none;
+    padding: 3px;
 }
 
 .content .penulis a:hover {
