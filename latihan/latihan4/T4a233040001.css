@@ -52,7 +52,7 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(email-pattern.webp);
+    background-image: url(img/email-pattern.webp);
     color: #333;
 }
 
@@ -91,7 +91,7 @@ body {
 
 .hero {
     height: 280px;
-    background-image: url(hero.jpg);
+    background-image: url(img/hero.jpg);
     background-size: cover;
     background-position: 0 -110px;
     border-bottom: 5px solid lightskyblue;
