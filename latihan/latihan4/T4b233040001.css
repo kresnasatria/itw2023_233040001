@@ -52,14 +52,14 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: lightskyblue;
-    color: gray;
+    color: black;
     background-image: url(img/bush.webp);
 }
 
 .container {
     width: 800px;
     margin: auto;
-    background-color: white;
+    background-color: lightskyblue;
 }
 
 .header {
@@ -86,7 +86,7 @@ body {
 }
 
 .header a:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
@@ -122,7 +122,7 @@ body {
 }
 
 .content .penulis a:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
@@ -150,17 +150,17 @@ body {
 }
 
 .content p .link1:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
 .content p .link2:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
 .content p .link3:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
@@ -192,7 +192,7 @@ body {
 }
 
 .content p .link4:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
@@ -213,7 +213,7 @@ body {
 }
 
 .content p .link5:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
@@ -224,7 +224,7 @@ body {
 }
 
 .content p .link6:hover {
-    background-color: lightskyblue;
+    background-color: red;
     color: cornsilk;
 }
 
