@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border Radius</title>
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+
+        .kotak {
+            width: 150px;
+            height: 150px;
+            background-color: salmon;
+            margin: 50px auto;
+            /* border-top-left-radius: 50%; */
+            /* border-bottom-right-radius: 50%; */
+            /* border-top-right-radius: 50% ; */
+
+            border-radius: 50% 50% 50% 0; 
+            /* box-shadow: <x offset> <y offset> <blur> [size] <color> ; */
+            box-shadow: 5px 5px 0px 5px red, -5px -5px 0px 5px blue, 20px 20px 0px violet, -20px -20px 0px orange; 
+            transition: 3s;
+        }
+
+        .kotak:hover {
+            transform: rotate(360deg);
+            scale: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak"></div>
+
+</body>
+</html>
