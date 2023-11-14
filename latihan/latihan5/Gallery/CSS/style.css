@@ -22,7 +22,7 @@ body {
 .topbar {
     width: 1500px;
     height: 55px;
-    background-color: darkslategray;
+    background-color: darkslategrey;
     position: fixed;
     z-index: 9999999;
     top: 0;
@@ -73,7 +73,7 @@ h1 {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    border: 5px solid #666;
+    border: 5px solid rgb(13, 13, 160);
     float: left;
     margin-right: 28px;
     position: relative;
@@ -167,7 +167,7 @@ h1 {
 
 .main {
     width: 1300px;
-    background-color: #ddd;
+    background-image: linear-gradient(to bottom, rgba(13, 13, 209, .5), rgba(255, 255, 255, .5));
     border-radius: 10px;
     box-shadow: 0 0 5px 4px rgba(0, 0, 0, .5);
     margin-top: 20px;
