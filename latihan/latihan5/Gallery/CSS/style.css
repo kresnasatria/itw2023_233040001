@@ -20,7 +20,7 @@ body {
 }
 
 .topbar {
-    width: 1500px;
+    width: 1400px;
     height: 55px;
     background-color: darkslategrey;
     position: fixed;
@@ -38,6 +38,7 @@ body {
     margin-top: -178px;
     margin-left: 100px;
     font-size: 25px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .topbar a {
@@ -61,7 +62,7 @@ h1 {
 }
 
 .container {
-    width: 1500px;
+    width: 1400px;
     background-color: #fff;
     margin: auto;
     padding: 20px;
@@ -73,7 +74,7 @@ h1 {
     width: 300px;
     height: 300px;
     overflow: hidden;
-    border: 5px solid rgb(13, 13, 160);
+    border: 5px solid rgba(13, 13, 160, .7);
     float: left;
     margin-right: 28px;
     position: relative;
