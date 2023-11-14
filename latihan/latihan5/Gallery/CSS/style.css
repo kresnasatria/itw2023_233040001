@@ -20,7 +20,7 @@ body {
 }
 
 .topbar {
-    width: 1400px;
+    width: 1500px;
     height: 55px;
     background-color: darkslategrey;
     position: fixed;
@@ -50,6 +50,29 @@ body {
     color: blue;
 }
 
+.topbar .menu {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    top: 138px;
+    right: 20px;
+}
+
+.topbar .download {
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    top: 138px;
+    right: 65px;
+}
+
+.topbar .shield {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 138px;
+    right: 103px;
+}
 
 h1 {
     font-family: 'alexbrush';
