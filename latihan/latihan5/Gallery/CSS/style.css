@@ -216,6 +216,8 @@ h1 {
    opacity: 0;
 }
 
+/* Main Paragraph */
+
 .main {
     width: 1300px;
     background-image: linear-gradient(to bottom, rgba(13, 13, 209, .5), rgba(255, 255, 255, .5));
@@ -237,6 +239,8 @@ h1 {
     color: white;
     padding: 3px;
 }
+
+/* Footer */
 
 .footer {
     width: 1300px;
