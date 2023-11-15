@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Font */
+
+@font-face {
+    font-family: 'alexbrush';
+    src: url(../lightbox/font/Alex\ Brush\ Font/alexbrush-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'bebasnueu';
+    src: url(../lightbox/font/Bebasneue/BebasNeue-Regular.woff) format('woff');
+}
+
+/* Style */
+
+body {
+    font: 18px/36px 'bebasnueu';
+    background-image: linear-gradient(to bottom, rgba(2, 2, 199, .5), rgba(255, 255, 255, .5));
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'alexbrush';
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    text-shadow: 7px 7px 8px rgba(0, 0, 0, .7);
+}
+
+.container {
+    width: 1200px;
+    background-color: rgba(122, 121, 121, .8);
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, .6);
+}
+
+.gallery li {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid black;
+    box-shadow: 0 0 3px 4px rgba(0, 0, 0, .6);
+    position: relative;
+    float: left;
+    margin-right: 90px;
+}
+
+/* .gallery img {
+    border-radius: 50%;
+} */
+
+.gallery li span {
+    display: block;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgba(200, 200, 200, .5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 300px;
+    font-size: 55px;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+    opacity: 0;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.gallery a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
+
+/* Overlay */
+
+.overlay {
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .0);
+    z-index: 9999;
+    transition: .5s;
+    text-align: center;
+    padding: 100px;
+
+} 
+
+.overlay:target {
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width: auto;
+    height: auto;
+}
+
+.overlay img {
+    max-height: 100%;
+    border: 4px solid white;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, .6);
+}
+
+.overlay:target img {
+    animation: zoomfadein 1s;
+}
+
+.overlay .close {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 1px solid white;
+    line-height: 14px;
+    padding: 5px;
+    opacity: 0;
+}
+
+.overlay:target .close {
+    animation: slidedownfade .5s .5s forwards;
+} 
+
+/* Navigation */
+
+.next {
+    width: 90px;
+    height: 90px;
+    background-image: url(img/arrow\ right.png);
+    position: absolute;
+}
+
+/* Animation */
+
+@keyframes zoomfadein {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slidefadedown {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
