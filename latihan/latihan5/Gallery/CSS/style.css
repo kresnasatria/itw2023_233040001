@@ -189,11 +189,12 @@ h1 {
     animation: zoomDanfade 1s;
 }
 
-/* Close Button */
 
 .overlay img {
     border: 2px solid white;
 }
+
+/* Close Button */
 
 .overlay .close {
     position: absolute;
