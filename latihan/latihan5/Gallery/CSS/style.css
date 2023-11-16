@@ -74,6 +74,14 @@ body {
     right: 103px;
 }
 
+.topbar .search {
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: -46px;
+    left: 500px;
+}
+
 h1 {
     font-family: 'alexbrush';
     font-size: 80px;
