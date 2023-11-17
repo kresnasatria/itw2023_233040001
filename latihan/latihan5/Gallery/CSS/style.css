@@ -159,8 +159,8 @@ h1 {
 /* Overlay */
 
 .overlay {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     text-align: center;
     overflow: hidden;
     position: fixed;
@@ -170,6 +170,7 @@ h1 {
     z-index: 9999999;
     transition: .8s;
     padding: 100px;
+    opacity: 0;
 }
 
 .overlay:target {
@@ -178,6 +179,7 @@ h1 {
     width: auto;
     height: auto;
     background-color: rgba(0, 0, 0, .6);
+    animation: nextdanprev .2s .2s forwards;
 }
 
 .overlay img {
