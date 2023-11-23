@@ -17,6 +17,7 @@
 body {
     background-image: linear-gradient(to bottom, rgba(30, 30, 182, .5), rgba(255, 255, 255, .5));
     font: 18px/36px 'bebasneue', Arial, sans-serif;
+    background-repeat: no-repeat;
 }
 
 /* Topbar */
