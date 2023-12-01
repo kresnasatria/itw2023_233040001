@@ -160,7 +160,7 @@ body {
 .services {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 19px;
+  gap: 20px;
 }
 
 .services {
